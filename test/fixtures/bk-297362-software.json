@@ -1,0 +1,317 @@
+{
+ "status": "OK",
+ "data": {
+  "advertisement": {
+   "id": 394434,
+   "title": "Wykonanie i dostawa modułu wyliczenia materiałowego i kalkulacja komponentów",
+   "partial_offer_allowed": false,
+   "publication_date": "2026-11-06",
+   "submission_deadline": "2026-12-07 23:59:59",
+   "planned_sign_date": "2026-12-01",
+   "supplementary_orders": "Nie dotyczy",
+   "terms_of_contract_change": "Zamawiający nie opisuje i nie wyznacza szczegółowego warunku w tym zakresie",
+   "created_at": "2026-11-06 17:24:59",
+   "modified_at": "2026-11-06 17:25:10",
+   "orders": [
+    {
+     "id": 639188,
+     "estimated_value": null,
+     "order_items": [
+      {
+       "id": 718654,
+       "description": "Przedmiotem zapytania ofertowego jest wykonanie i dostawa modułu wyliczenia materiałowego i kalkulacja komponentów (szczegółowy opis przedmiotu zamówienia – załącznik nr 2).\n",
+       "warranty_period": null,
+       "cpv_items": [
+        {
+         "id": 8260,
+         "code": "72000000-5",
+         "name": "Usługi informatyczne: konsultacyjne, opracowywania oprogramowania, internetowe i wsparcia"
+        }
+       ],
+       "timetable_items": [],
+       "fulfillment_places": [
+        {
+         "country": "Polska",
+         "voivodeship": "mazowieckie",
+         "poviat": "grójecki",
+         "commune": "Grójec",
+         "locality": "Mieczysławówka",
+         "created_at": "2026-11-06 17:24:59",
+         "modified_at": "2026-11-06 17:24:59",
+         "id": 819524,
+         "type": {
+          "id": 1,
+          "name": "adres"
+         },
+         "group_uuid": "386eb6e7-44e1-46ca-b0c3-62dda8d30b9b"
+        }
+       ],
+       "participation_conditions": [
+        {
+         "id": 2057468,
+         "description": "Zamawiający nie opisuje i nie wyznacza szczegółowego warunku w tym zakresie",
+         "type": {
+          "id": 1,
+          "name": "Uprawnienia do wykonywania określonej działalności lub czynności"
+         },
+         "created_at": "2026-11-06 17:24:59",
+         "modified_at": "2026-11-06 17:24:59",
+         "group_uuid": "0334508e-e231-4c0f-beee-ac728059f607"
+        },
+        {
+         "id": 2057469,
+         "description": "Oferent powinien posiadać wiedzę i doświadczenie w projektowaniu aplikacji, serwisów webowych Warunek weryfikowany na podstawie Oświadczenia oferenta",
+         "type": {
+          "id": 2,
+          "name": "Wiedza i doświadczenie"
+         },
+         "created_at": "2026-11-06 17:24:59",
+         "modified_at": "2026-11-06 17:24:59",
+         "group_uuid": "af4884bf-d8b8-4b75-864f-b02aedbf7630"
+        },
+        {
+         "id": 2057470,
+         "description": "Zamawiający nie opisuje i nie wyznacza szczegółowego warunku w tym zakresie.",
+         "type": {
+          "id": 3,
+          "name": "Potencjał techniczny"
+         },
+         "created_at": "2026-11-06 17:24:59",
+         "modified_at": "2026-11-06 17:24:59",
+         "group_uuid": "a22eff14-4f15-4c8d-aa4e-07b1c5553926"
+        },
+        {
+         "id": 2057471,
+         "description": "Oferent powinien wykazać zdolność do wykonania zamówienia poprzez dostarczenie działającego demonstratora (aplikacji) oraz krótkiego opisu technicznego, potwierdzających wykonanie / realizację aplikacji lub modułów wyliczenia materiałowego i kalkulacji komponentów dotyczących pokryć dachowych. Aplikacja lub moduł powinna uwzględniać adres inwestycji jako parametr wejściowy do wyliczeń.\n\nDemonstrator może zostać udostępniony jako:\n•⁠ link do działającej aplikacji na serwerze www, lub\n•⁠ paczka (zip) do uruchomienia lokalnie wraz z instrukcją uruchomienia.\nDodatkowo Zrzuty ekranowe aplikacji można udostępnić jako link do paczki zip.",
+         "type": {
+          "id": 4,
+          "name": "Osoby zdolne do wykonania zamówienia"
+         },
+         "created_at": "2026-11-06 17:24:59",
+         "modified_at": "2026-11-06 17:24:59",
+         "group_uuid": "4e206d95-b486-400a-8024-1f8a3d6bf832"
+        },
+        {
+         "id": 2057472,
+         "description": "Zamawiający nie opisuje i nie wyznacza szczegółowego warunku w tym zakresie.",
+         "type": {
+          "id": 5,
+          "name": "Sytuacja ekonomiczna i finansowa"
+         },
+         "created_at": "2026-11-06 17:24:59",
+         "modified_at": "2026-11-06 17:24:59",
+         "group_uuid": "91250dd6-1d8f-48f2-a160-e363838fe977"
+        },
+        {
+         "id": 2057473,
+         "description": "Oferta zgodnie z załączonym wzorem, \nOświadczenie o braku powiązań zgodnie z załączonym wzorem, \nOświadczenie o posiadanej wiedzy i doświadczeniu zgodnie z załączonym wzorem\nDemonstrator jako:\n•⁠ link do działającej aplikacji na serwerze www, lub\n•⁠ paczka (zip) do uruchomienia lokalnie wraz z instrukcją uruchomienia.\nDodatkowo Zrzuty ekranowe aplikacji można udostępnić jako link do paczki zip.",
+         "type": {
+          "id": 6,
+          "name": "Lista wymaganych dokumentów/oświadczeń"
+         },
+         "created_at": "2026-11-06 17:24:59",
+         "modified_at": "2026-11-06 17:24:59",
+         "group_uuid": "5685c98e-e60e-4485-8efb-58a99b8ffc77"
+        },
+        {
+         "id": 2057474,
+         "description": "Zamawiający zastrzega sobie prawo unieważnienia postępowania na każdym jego etapie, bez podawania przyczyny.\nZamawiający zastrzega sobie prawo do zmiany treści zapytania ofertowego. \nZamawiający zastrzega sobie prawo do wezwania oferentów do złożenia dodatkowych informacji, dokumentów lub wyjaśnień, dotyczących złożonej oferty.",
+         "type": {
+          "id": 7,
+          "name": "Dodatkowe warunki udziału"
+         },
+         "created_at": "2026-11-06 17:24:59",
+         "modified_at": "2026-11-06 17:24:59",
+         "group_uuid": "e0e9dc9c-d8c0-4dfd-825f-9b12aea6068a"
+        }
+       ],
+       "category": {
+        "id": 1,
+        "name": "Usługa"
+       },
+       "subcategory": {
+        "id": 5,
+        "name": "Usługi IT"
+       },
+       "created_at": "2026-11-06 17:24:59",
+       "modified_at": "2026-11-06 17:24:59",
+       "group_uuid": "abb4f2ce-f291-4ef7-ac90-3c920512c8aa"
+      }
+     ],
+     "evaluation_criteria": [
+      {
+       "id": 1153263,
+       "price_criterion": true,
+       "description": "1.\tCena – 100 pkt. (100%)\nC = Cmin/Coferty x 100;\nGdzie\nC – liczba punktów dla oferty badanej w kryterium cena\nCmin – najniższa cena całkowita netto ze wszystkich cen netto zaproponowanych przez wszystkich oferentów\nCoferty – cena całkowita netto oferty badanej",
+       "created_at": "2026-11-06 17:24:59",
+       "modified_at": "2026-11-06 17:24:59",
+       "group_uuid": "4711edf1-d787-4d24-9581-c067b56915f7"
+      }
+     ],
+     "is_variant": false,
+     "title": "Wykonanie i dostawa modułu wyliczenia materiałowego i kalk.",
+     "order_node": {
+      "id": 481249
+     },
+     "created_at": "2026-11-06 17:24:59",
+     "modified_at": "2026-11-06 17:24:59"
+    }
+   ],
+   "status": {
+    "id": 2,
+    "label": "PUBLISHED",
+    "name": "Opublikowane"
+   },
+   "advertiser_address_details": {
+    "name": "Electrotile Sp. z o.o.",
+    "identification_number_type": "nip",
+    "identification_number": "9512295724",
+    "address": {
+     "country": "Polska",
+     "voivodeship": "mazowieckie",
+     "poviat": "Warszawa",
+     "commune": "Ursynów",
+     "locality": "Warszawa",
+     "created_at": null,
+     "modified_at": null,
+     "id": 1122445,
+     "street": "Puławska",
+     "number_description": "427",
+     "postcode": "02-801"
+    },
+    "created_at": "2026-11-06 17:24:58",
+    "modified_at": "2026-11-06 17:24:58",
+    "id": 395517
+   },
+   "advertisement": {
+    "id": 297362,
+    "number": "2026-11791-297362",
+    "publication_date": "2026-11-06",
+    "created_at": "2026-11-06 17:24:58",
+    "modified_at": "2026-11-06 17:25:10",
+    "status": {
+     "id": 2,
+     "label": "PUBLISHED",
+     "name": "Opublikowane"
+    },
+    "all_available_version_ids": [
+     394434
+    ],
+    "enrollment": null,
+    "projects": [
+     {
+      "id": 60915,
+      "name": "Systemy decyzyjne do procesów projektowania systemów dachowych i fasadowych zintegrowanych z mikropanelami fotowoltaicznymi o różnych wymiarach",
+      "number": "02BG/24",
+      "activity": {
+       "created_at": "2023-02-20 08:17:59",
+       "modified_at": "2023-02-20 08:17:59"
+      },
+      "region": null,
+      "institution": {
+       "created_at": "2023-02-20 10:40:15",
+       "modified_at": "2023-02-20 10:40:15"
+      },
+      "full_number": "FEMA.01.01-IP.01-02BG/24",
+      "perspective": {},
+      "programme": {
+       "created_at": "2023-02-20 08:16:46",
+       "modified_at": "2023-02-20 08:16:46"
+      },
+      "priority": {
+       "created_at": "2023-02-20 08:16:58",
+       "modified_at": "2023-02-20 08:16:58"
+      },
+      "type": "project",
+      "created_at": "2025-06-05 14:52:01",
+      "modified_at": "2025-06-05 14:52:01"
+     }
+    ],
+    "is_author": false,
+    "is_admin": false
+   },
+   "attachments": [
+    {
+     "origin": {
+      "id": 394434,
+      "publication_date": "2026-11-06"
+     },
+     "id": 2875704,
+     "name": "Zapytanie ET_2025_5.pdf",
+     "file": {
+      "id": 3191681,
+      "name": "Zapytanie ET_2025_5.pdf",
+      "created_at": "2026-11-06 17:24:18",
+      "uri": "/api/files/3191681"
+     },
+     "group_uuid": "a94c947c-722a-4270-b1e4-5fbfd7697536"
+    },
+    {
+     "origin": {
+      "id": 394434,
+      "publication_date": "2026-11-06"
+     },
+     "id": 2875705,
+     "name": "zał. 1 oświad. o braku powiązań.docx",
+     "file": {
+      "id": 3191683,
+      "name": "zał. 1 oświad. o braku powiązań.docx",
+      "created_at": "2026-11-06 17:24:26",
+      "uri": "/api/files/3191683"
+     },
+     "group_uuid": "df260ca6-269e-4e9b-9e1d-1e7efc7ac1d2"
+    },
+    {
+     "origin": {
+      "id": 394434,
+      "publication_date": "2026-11-06"
+     },
+     "id": 2875706,
+     "name": "zał. 2 specyfikacja.pdf",
+     "file": {
+      "id": 3191685,
+      "name": "zał. 2 specyfikacja.pdf",
+      "created_at": "2026-11-06 17:24:33",
+      "uri": "/api/files/3191685"
+     },
+     "group_uuid": "12ad40dc-3149-4cbb-86e8-35d2071a5a6d"
+    },
+    {
+     "origin": {
+      "id": 394434,
+      "publication_date": "2026-11-06"
+     },
+     "id": 2875707,
+     "name": "zał. 3 formularz oferty.docx",
+     "file": {
+      "id": 3191686,
+      "name": "zał. 3 formularz oferty.docx",
+      "created_at": "2026-11-06 17:24:39",
+      "uri": "/api/files/3191686"
+     },
+     "group_uuid": "934c98a6-290c-4bda-a25c-7fa9106b761c"
+    },
+    {
+     "origin": {
+      "id": 394434,
+      "publication_date": "2026-11-06"
+     },
+     "id": 2875708,
+     "name": "zał. 4 oświad. o wiedzy i doświadczeniu.docx",
+     "file": {
+      "id": 3191687,
+      "name": "zał. 4 oświad. o wiedzy i doświadczeniu.docx",
+      "created_at": "2026-11-06 17:24:45",
+      "uri": "/api/files/3191687"
+     },
+     "group_uuid": "3c2b5958-9ab9-46bf-9aaa-219e2262045a"
+    }
+   ]
+  },
+  "dictionaries": [],
+  "favorite": null,
+  "badge": null,
+  "offer_set_badge_count": null,
+  "question_badge_count": null
+ }
+}

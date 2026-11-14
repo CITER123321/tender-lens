@@ -1,0 +1,32 @@
+{
+  "name": "tender-lens",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension that reads public tender notices (Polish BZP, Baza Konkurencyjnosci, EU TED) with hybrid on-device/cloud AI via Firebase AI Logic.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "debug-token": "node -e \"console.log(crypto.randomUUID())\"",
+    "build": "tsc --noEmit && vite build",
+    "build:mock": "vite build --mode mock",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "icons": "python scripts/make_icons.py",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "firebase": "^13.3.0",
+    "pdfjs-dist": "^6.5.438"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.7",
+    "@types/jsdom": "^30.0.0",
+    "jsdom": "^31.0.1",
+    "puppeteer-core": "^25.17.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}

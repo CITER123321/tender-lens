@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tender Lens</title>
+    <link rel="stylesheet" href="/src/sidepanel/styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <img src="/icons/icon-32.png" alt="" width="24" height="24" />
+        <span>Tender Lens</span>
+      </div>
+      <div class="env" id="env" aria-live="polite"></div>
+    </header>
+
+    <nav class="tabs" role="tablist">
+      <button role="tab" id="tab-page" aria-selected="true" aria-controls="view-page">This page</button>
+      <button role="tab" id="tab-watch" aria-selected="false" aria-controls="view-watch">Watchlist <span id="watch-count" class="count"></span></button>
+      <button role="tab" id="tab-settings" aria-selected="false" aria-controls="view-settings">Settings</button>
+    </nav>
+
+    <main>
+      <!-- THIS PAGE -->
+      <section id="view-page" role="tabpanel" aria-labelledby="tab-page">
+        <div class="source card">
+          <div class="source-row">
+            <span id="source-kind" class="chip">…</span>
+            <span id="source-url" class="muted ellipsis"></span>
+          </div>
+          <div id="quick" class="quick" hidden></div>
+          <div class="actions">
+            <button id="analyze" class="primary">Analyze notice</button>
+            <button id="grant" class="ghost" hidden>Allow this site</button>
+          </div>
+          <p id="status" class="status muted" aria-live="polite"></p>
+          <div id="progress" class="progress" hidden><div id="progress-bar"></div></div>
+        </div>
+
+        <details class="card pdfs" id="pdf-box">
+          <summary>Specification PDF (SWZ / zapytanie ofertowe)</summary>
+          <label class="drop" id="drop">
+            <input type="file" id="pdf-file" accept="application/pdf" />
+            <span>Drop a PDF here or <u>choose a file</u></span>
+            <small class="muted">Text is extracted on this computer. Short documents stay on the device, long ones go to the cloud model.</small>
+          </label>
+          <ul id="pdf-links" class="links"></ul>
+        </details>
+
+        <div id="result" hidden></div>
+        <div id="empty" class="empty muted">
+          <p>Open a notice on <b>ezamowienia.gov.pl</b> (BZP), <b>Baza Konkurencyjności</b> or <b>TED</b>, then press <b>Analyze notice</b>.</p>
+          <p>Any other page works too: select the notice text, right-click, <i>Analyze selected text with Tender Lens</i>.</p>
+        </div>
+      </section>
+
+      <!-- WATCHLIST -->
+      <section id="view-watch" role="tabpanel" aria-labelledby="tab-watch" hidden>
+        <p id="store-kind" class="muted small"></p>
+        <ul id="watch-list" class="watch-list"></ul>
+        <p id="watch-empty" class="empty muted" hidden>Nothing watched yet. Analyze a notice and press <b>Watch</b>.</p>
+      </section>
+
+      <!-- SETTINGS -->
+      <section id="view-settings" role="tabpanel" aria-labelledby="tab-settings" hidden>
+        <fieldset class="card">
+          <legend>Where the AI runs</legend>
+          <label class="radio"><input type="radio" name="pref" value="auto" checked /> <span><b>Auto (hybrid)</b><br /><small class="muted">Gemini Nano on this device when the text fits, cloud for long documents or when Nano is missing.</small></span></label>
+          <label class="radio"><input type="radio" name="pref" value="local-only" /> <span><b>On-device only</b><br /><small class="muted">Nothing leaves this computer. Long documents are split into several local passes.</small></span></label>
+          <label class="radio"><input type="radio" name="pref" value="cloud-only" /> <span><b>Cloud only</b><br /><small class="muted">Always Gemini in the cloud via Firebase AI Logic.</small></span></label>
+        </fieldset>
+        <div class="card">
+          <h3>Gemini Nano on this computer</h3>
+          <p id="nano-detail" class="small"></p>
+          <div class="actions">
+            <button id="nano-check" class="ghost">Check again</button>
+            <button id="nano-download" class="ghost">Download model</button>
+          </div>
+          <p class="small muted">Details: <code>chrome://on-device-internals</code></p>
+        </div>
+        <div class="card">
+          <h3>Diagnostics</h3>
+          <dl id="diag" class="diag small"></dl>
+        </div>
+      </section>
+    </main>
+
+    <template id="tpl-result">
+      <article class="card result">
+        <div class="engine" data-engine="">
+          <span class="engine-pill"></span>
+          <span class="engine-meta muted small"></span>
+        </div>
+        <p class="route small muted"></p>
+        <h2 class="title"></h2>
+        <p class="buyer muted"></p>
+        <p class="ref small muted"></p>
+        <div class="grid">
+          <div class="tile deadline">
+            <span class="label">Bid deadline</span>
+            <strong class="value"></strong>
+            <span class="sub"></span>
+          </div>
+          <div class="tile deposit">
+            <span class="label">Bid security (wadium)</span>
+            <strong class="value"></strong>
+          </div>
+        </div>
+        <div class="actions result-actions">
+          <button class="primary act-watch">Watch</button>
+          <button class="ghost act-ics">Add to calendar</button>
+          <button class="ghost act-copy">Copy</button>
+        </div>
+        <div class="conflicts" hidden></div>
+        <p class="summary"></p>
+        <section class="block flags" hidden><h3>Watch out</h3><ul></ul></section>
+        <section class="block criteria" hidden><h3>Award criteria</h3><ul></ul></section>
+        <section class="block conditions" hidden><h3>Participation conditions</h3><ul></ul></section>
+        <section class="block checklist"><h3>Bid checklist <span class="progress-text muted small"></span></h3><ul></ul></section>
+        <details class="block evidence"><summary class="small muted">Where the parser found the facts</summary><ul class="small"></ul></details>
+      </article>
+    </template>
+
+    <script type="module" src="/src/sidepanel/main.ts"></script>
+  </body>
+</html>

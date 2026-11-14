@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.zip
+.env
+.env.local
+.env.*.local
+.smoke-profile/
+coverage/
+INSTRUKCJA-MACIEJ.md

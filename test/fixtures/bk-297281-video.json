@@ -1,0 +1,341 @@
+{
+ "status": "OK",
+ "data": {
+  "advertisement": {
+   "id": 394316,
+   "title": "PRODUKCJA MATERIAŁÓW FILMOWYCH DOTYCZĄCYCH REALIZACJI PROJEKTÓW DOFINANSOWANYCH ZE ŚRODKÓW UNII EUROPEJSKIEJ",
+   "partial_offer_allowed": true,
+   "publication_date": "2026-11-09",
+   "submission_deadline": "2026-11-18 09:00:00",
+   "planned_sign_date": "2026-11-01",
+   "supplementary_orders": null,
+   "terms_of_contract_change": "Zgodnie ze wzorem umowy (załącznik nr 2 do zapytania ofertowego)",
+   "created_at": "2026-11-06 12:25:13",
+   "modified_at": "2026-11-09 12:16:30",
+   "orders": [
+    {
+     "id": 639013,
+     "estimated_value": null,
+     "order_items": [
+      {
+       "id": 718851,
+       "description": "\nPRODUKCJA MATERIAŁÓW FILMOWYCH DOTYCZĄCYCH REALIZACJI PROJEKTÓW DOFINANSOWANYCH ZE ŚRODKÓW UNII EUROPEJSKIEJ\n\nPrzedmiot zamówienia obejmuje Produkcję materiałów filmowych dotyczących realizacji projektów dofinansowanych ze środków Unii Europejskiej. \n\nCZĘŚĆ 1- materiały filmowe dotyczące realizacji projektów dofinansowanych ze środków Unii Europejskiej w ramach programu Fundusze Europejskie dla Polski Wschodniej 2021-2027- 5 materiałów filmowych.\nSzczegółowy opis przedmiotu zamówienia zawiera załącznik nr 3 do zapytania ofertowego, wraz z wykazem projektów, których dotyczą materiały filmowe.\nZamawiający przewiduje możliwość skorzystania, w zależności od potrzeb, z prawa opcji (zamówienia opcjonalnego), w ilości: Część 1- do 3 materiałów filmowych.\nZamówienie jest współfinansowane ze środków Unii Europejskiej:\nCzęść 1- w ramach programu Fundusze Europejskie dla Polski Wschodniej 2021-2027.\nKażdy wykonany materiał filmowy musi być dostarczony na płycie (2 szt.) w formacie dvd-video (wraz z menu-dvd), oraz do upublicznienia w Internecie w formacie min. HD 720p (kontener avi, mp4, kodek xvid, h264). \nKażdy materiał filmowy musi zawierać informacje o projekcie finansującym zamówienie (logo + informacja słowna) zgodnie z wytycznym Instytucji Zarządzającej odnośnie obowiązków beneficjentów w zakresie prowadzenia działań informacyjnych i promocyjnych projektów dofinansowanych ze środków UE.\nZamawiający przewiduje możliwość zmniejszenia zakresu podstawowego przedmiotu umowy. ",
+       "warranty_period": null,
+       "cpv_items": [
+        {
+         "id": 9270,
+         "code": "92111200-4",
+         "name": "Produkcja filmów reklamowych, propagandowych i informacyjnych i taśm wideo"
+        },
+        {
+         "id": 9271,
+         "code": "92111210-7",
+         "name": "Produkcja filmów reklamowych"
+        }
+       ],
+       "timetable_items": [],
+       "fulfillment_places": [
+        {
+         "country": "Polska",
+         "voivodeship": "warmińsko-mazurskie",
+         "poviat": "ostródzki",
+         "commune": "Ostróda",
+         "locality": "Ostróda",
+         "created_at": "2026-11-09 12:08:42",
+         "modified_at": "2026-11-09 12:16:20",
+         "id": 819779,
+         "type": {
+          "id": 1,
+          "name": "adres"
+         },
+         "group_uuid": "3ea456cc-d6ee-40e2-baf2-5cae3f0066ff"
+        }
+       ],
+       "participation_conditions": [],
+       "category": {
+        "id": 1,
+        "name": "Usługa"
+       },
+       "subcategory": {
+        "id": 8,
+        "name": "Usługi inne"
+       },
+       "created_at": "2026-11-09 11:25:27",
+       "modified_at": "2026-11-09 12:16:20",
+       "group_uuid": "3852121c-9f3c-4813-b43f-18cabc813286"
+      }
+     ],
+     "evaluation_criteria": [
+      {
+       "id": 1152953,
+       "price_criterion": true,
+       "description": "Kryteria wyboru oferty: cena, znaczenie kryterium: 100 %. \nMaksymalną ilość punktów otrzyma oferta wykonawcy, który zaoferuje najniższą cenę ofertową (z uwzględnieniem prawa opcji).",
+       "created_at": "2026-11-06 12:37:46",
+       "modified_at": "2026-11-09 12:16:20",
+       "group_uuid": "23f5592f-8703-4090-87df-f41fcb2775fe"
+      }
+     ],
+     "is_variant": false,
+     "title": "Materiały filmowe Fundusze Europejskie dla Polski Wschodniej",
+     "order_node": {
+      "id": 481133
+     },
+     "created_at": "2026-11-06 12:25:13",
+     "modified_at": "2026-11-09 12:16:20"
+    },
+    {
+     "id": 639360,
+     "estimated_value": null,
+     "order_items": [
+      {
+       "id": 718854,
+       "description": "PRODUKCJA MATERIAŁÓW FILMOWYCH DOTYCZĄCYCH REALIZACJI PROJEKTÓW DOFINANSOWANYCH ZE ŚRODKÓW UNII EUROPEJSKIEJ\n\nPrzedmiot zamówienia obejmuje Produkcję materiałów filmowych dotyczących realizacji projektów dofinansowanych ze środków Unii Europejskiej. \n\nCZĘŚĆ 2- materiały filmowe dotyczące realizacji projektów dofinansowanych ze środków Unii Europejskiej w ramach programu Fundusze Europejskie dla Warmii i Mazur 2021-2027- \n6 materiałów filmowych.\nSzczegółowy opis przedmiotu zamówienia zawiera załącznik nr 3 do zapytania ofertowego, wraz \nz wykazem projektów, których dotyczą materiały filmowe.\nZamawiający przewiduje możliwość skorzystania, w zależności od potrzeb, z prawa opcji (zamówienia opcjonalnego), w ilości: Część 2 – do 6 materiałów filmowych.\nZamówienie jest współfinansowane ze środków Unii Europejskiej:\nCzęść 2- w ramach programu Fundusze Europejskie dla Warmii i Mazur 2021-2027.\nKażdy wykonany materiał filmowy musi być dostarczony na płycie (2 szt.) w formacie dvd-video (wraz z menu-dvd), oraz do upublicznienia w Internecie w formacie min. HD 720p (kontener avi, mp4, kodek xvid, h264). \nKażdy materiał filmowy musi zawierać informacje o projekcie finansującym zamówienie (logo + informacja słowna) zgodnie z wytycznym Instytucji Zarządzającej odnośnie obowiązków beneficjentów w zakresie prowadzenia działań informacyjnych i promocyjnych projektów dofinansowanych ze środków UE.\nZamawiający przewiduje możliwość zmniejszenia zakresu podstawowego przedmiotu umowy. \n\n",
+       "warranty_period": null,
+       "cpv_items": [
+        {
+         "id": 9270,
+         "code": "92111200-4",
+         "name": "Produkcja filmów reklamowych, propagandowych i informacyjnych i taśm wideo"
+        },
+        {
+         "id": 9271,
+         "code": "92111210-7",
+         "name": "Produkcja filmów reklamowych"
+        }
+       ],
+       "timetable_items": [],
+       "fulfillment_places": [
+        {
+         "country": "Polska",
+         "voivodeship": "warmińsko-mazurskie",
+         "poviat": "ostródzki",
+         "commune": "Ostróda",
+         "locality": "Ostróda",
+         "created_at": "2026-11-09 11:28:52",
+         "modified_at": "2026-11-09 12:16:20",
+         "id": 819754,
+         "type": {
+          "id": 1,
+          "name": "adres"
+         },
+         "group_uuid": "430b8a1e-7cce-45b1-b229-b6ceab660e08"
+        }
+       ],
+       "participation_conditions": [],
+       "category": {
+        "id": 1,
+        "name": "Usługa"
+       },
+       "subcategory": {
+        "id": 8,
+        "name": "Usługi inne"
+       },
+       "created_at": "2026-11-09 11:28:52",
+       "modified_at": "2026-11-09 12:16:20",
+       "group_uuid": "f2dcf3fa-8d24-4bab-973f-c89b68760ad9"
+      }
+     ],
+     "evaluation_criteria": [
+      {
+       "id": 1153576,
+       "price_criterion": true,
+       "description": "Kryteria wyboru oferty: cena, znaczenie kryterium: 100 %. \nMaksymalną ilość punktów otrzyma oferta wykonawcy, który zaoferuje najniższą cenę ofertową (z uwzględnieniem prawa opcji).",
+       "created_at": "2026-11-09 11:25:27",
+       "modified_at": "2026-11-09 12:16:20",
+       "group_uuid": "f279ce21-a74f-4a1e-8b5b-22d4db6956ae"
+      }
+     ],
+     "is_variant": false,
+     "title": "Materiały filmowe Fundusze Europejskie dla Warmii i Mazur",
+     "order_node": {
+      "id": 481391
+     },
+     "created_at": "2026-11-09 11:25:27",
+     "modified_at": "2026-11-09 12:16:20"
+    }
+   ],
+   "status": {
+    "id": 2,
+    "label": "PUBLISHED",
+    "name": "Opublikowane"
+   },
+   "advertiser_address_details": {
+    "name": "Gmina Miejska Ostróda",
+    "identification_number_type": "nip",
+    "identification_number": "7412090654",
+    "address": {
+     "country": "Polska",
+     "voivodeship": "warmińsko-mazurskie",
+     "poviat": "ostródzki",
+     "commune": "Ostróda",
+     "locality": "Ostróda",
+     "created_at": null,
+     "modified_at": null,
+     "id": 1122191,
+     "street": "Adama Mickiewicza",
+     "number_description": "24",
+     "postcode": "14-100"
+    },
+    "created_at": "2026-11-06 12:25:13",
+    "modified_at": "2026-11-06 12:25:13",
+    "id": 395398
+   },
+   "advertisement": {
+    "id": 297281,
+    "number": "2026-10389-297281",
+    "publication_date": "2026-11-09",
+    "created_at": "2026-11-06 12:25:13",
+    "modified_at": "2026-11-09 12:16:30",
+    "status": {
+     "id": 2,
+     "label": "PUBLISHED",
+     "name": "Opublikowane"
+    },
+    "all_available_version_ids": [
+     394316
+    ],
+    "enrollment": null,
+    "projects": [
+     {
+      "id": 76332,
+      "name": "Zwiększenie odporności Miasta Ostróda na zmiany klimatu poprzez rozwój systemów retencji i zielono-niebieskiej infrastruktury",
+      "number": "0024/26",
+      "activity": {
+       "created_at": "2023-02-16 14:51:40",
+       "modified_at": "2023-02-16 14:51:40"
+      },
+      "region": null,
+      "institution": {
+       "created_at": "2023-02-16 14:57:23",
+       "modified_at": "2023-02-16 14:57:23"
+      },
+      "full_number": "FEPW.02.02-IW.01-0024/26",
+      "perspective": {},
+      "programme": {
+       "created_at": "2023-02-16 14:49:52",
+       "modified_at": "2023-02-16 14:49:52"
+      },
+      "priority": {
+       "created_at": "2023-02-16 14:50:14",
+       "modified_at": "2023-02-16 14:50:14"
+      },
+      "type": "project",
+      "created_at": "2026-11-06 12:57:58",
+      "modified_at": "2026-11-06 12:57:58"
+     },
+     {
+      "id": 76333,
+      "name": "Opracowanie Miejskiego Planu Adaptacji do zmian klimatu dla Gminy Miejskiej Ostróda",
+      "number": "0040/26",
+      "activity": {
+       "created_at": "2023-02-16 14:51:40",
+       "modified_at": "2023-02-16 14:51:40"
+      },
+      "region": null,
+      "institution": {
+       "created_at": "2023-02-16 14:57:23",
+       "modified_at": "2023-02-16 14:57:23"
+      },
+      "full_number": "FEPW.02.02-IW.01-0040/26",
+      "perspective": {},
+      "programme": {
+       "created_at": "2023-02-16 14:49:52",
+       "modified_at": "2023-02-16 14:49:52"
+      },
+      "priority": {
+       "created_at": "2023-02-16 14:50:14",
+       "modified_at": "2023-02-16 14:50:14"
+      },
+      "type": "project",
+      "created_at": "2026-11-06 13:00:33",
+      "modified_at": "2026-11-06 13:00:33"
+     }
+    ],
+    "is_author": false,
+    "is_admin": false
+   },
+   "attachments": [
+    {
+     "origin": {
+      "id": 394316,
+      "publication_date": "2026-11-09"
+     },
+     "id": 2877424,
+     "name": "Zapytanie ofertowe.pdf",
+     "file": {
+      "id": 3193555,
+      "name": "Zapytanie ofertowe.pdf",
+      "created_at": "2026-11-09 12:13:51",
+      "uri": "/api/files/3193555"
+     },
+     "group_uuid": "517ab0d2-03ce-4e28-b1e3-cd99891f6757"
+    },
+    {
+     "origin": {
+      "id": 394316,
+      "publication_date": "2026-11-09"
+     },
+     "id": 2877425,
+     "name": "Załącznik nr 1- formularz ofertowy.doc",
+     "file": {
+      "id": 3193558,
+      "name": "Załącznik nr 1- formularz ofertowy.doc",
+      "created_at": "2026-11-09 12:14:31",
+      "uri": "/api/files/3193558"
+     },
+     "group_uuid": "8fb776bd-4912-45f6-9fad-d606d235b768"
+    },
+    {
+     "origin": {
+      "id": 394316,
+      "publication_date": "2026-11-09"
+     },
+     "id": 2877426,
+     "name": "Załącznik nr 2- wzór umowy.pdf",
+     "file": {
+      "id": 3193559,
+      "name": "Załącznik nr 2- wzór umowy.pdf",
+      "created_at": "2026-11-09 12:14:42",
+      "uri": "/api/files/3193559"
+     },
+     "group_uuid": "c80a72ce-ab08-4e7c-a859-0333c06433f5"
+    },
+    {
+     "origin": {
+      "id": 394316,
+      "publication_date": "2026-11-09"
+     },
+     "id": 2877427,
+     "name": "Załącznik nr 3- Szczegółowy opis przedmiotu zamowienia.pdf",
+     "file": {
+      "id": 3193560,
+      "name": "Załącznik nr 3- Szczegółowy opis przedmiotu zamowienia.pdf",
+      "created_at": "2026-11-09 12:14:50",
+      "uri": "/api/files/3193560"
+     },
+     "group_uuid": "4e10ee7d-4ded-4e34-9919-e5c7a7de097f"
+    },
+    {
+     "origin": {
+      "id": 394316,
+      "publication_date": "2026-11-09"
+     },
+     "id": 2877428,
+     "name": "Załącznik nr 4- oświadczenie KSEF.docx",
+     "file": {
+      "id": 3193561,
+      "name": "Załącznik nr 4- oświadczenie KSEF.docx",
+      "created_at": "2026-11-09 12:14:57",
+      "uri": "/api/files/3193561"
+     },
+     "group_uuid": "349cfca1-9c1f-4e77-9f68-96e528c0d430"
+    }
+   ]
+  },
+  "dictionaries": [],
+  "favorite": null,
+  "badge": null,
+  "offer_set_badge_count": null,
+  "question_badge_count": null
+ }
+}

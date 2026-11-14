@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "ondevice_input_tokens": {
+      "defaultValue": { "value": "4500" },
+      "description": "Max input tokens sent to Gemini Nano in one prompt (Chrome window is ~9k incl. output).",
+      "valueType": "NUMBER"
+    },
+    "max_local_chunks": {
+      "defaultValue": { "value": "8" },
+      "description": "On-device only mode: max number of local passes for a long document.",
+      "valueType": "NUMBER"
+    },
+    "cloud_model": {
+      "defaultValue": { "value": "gemini-3.5-flash-lite" },
+      "description": "Cloud model used by Firebase AI Logic for long documents and fallback.",
+      "valueType": "STRING"
+    }
+  }
+}

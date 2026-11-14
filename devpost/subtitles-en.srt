@@ -1,0 +1,71 @@
+1
+00:00:00,500 --> 00:00:06,500
+This is a Polish public tender notice.
+
+2
+00:00:06,500 --> 00:00:14,000
+Somewhere in here are the deadline, the bid security and the list of documents. Miss one line and your offer is rejected.
+
+3
+00:00:14,000 --> 00:00:22,000
+Tender Lens opens next to the notice.
+
+4
+00:00:22,000 --> 00:00:32,000
+Before any AI runs, a local parser already found the deadline, the bid security and the award criteria.
+
+5
+00:00:32,000 --> 00:00:41,000
+Now the AI part. The GDPR clauses and platform manuals were removed locally,
+
+6
+00:00:41,000 --> 00:00:50,000
+the rest fits Gemini Nano's window, so Firebase AI Logic runs it right here in Chrome, on my computer.
+
+7
+00:00:50,000 --> 00:01:02,000
+I get a summary in English, the conditions, the criteria and the things a small company could miss, like references with a minimum value.
+
+8
+00:01:02,000 --> 00:01:11,000
+Same request in the cloud: same JSON schema, different engine.
+
+9
+00:01:11,000 --> 00:01:20,000
+Each answer is labelled, so you always know where your data went.
+
+10
+00:01:20,000 --> 00:01:30,000
+Requests for quotation from EU projects work too.
+
+11
+00:01:30,000 --> 00:01:39,000
+For the long specification, text is extracted on my computer first.
+
+12
+00:01:39,000 --> 00:01:50,000
+Ninety-six pages is too much for the on-device model, so the original PDF goes to Gemini in the cloud.
+
+13
+00:01:50,000 --> 00:02:01,000
+If I don't want anything to leave my computer, on-device only mode
+
+14
+00:02:01,000 --> 00:02:12,000
+splits a longer document into several Gemini Nano passes and merges the results.
+
+15
+00:02:12,000 --> 00:02:20,000
+The checklist is what I actually work from.
+
+16
+00:02:20,000 --> 00:02:35,000
+Watched tenders sync through Cloud Firestore with an anonymous account, and the deadline goes to my calendar with reminders three days and one day before.
+
+17
+00:02:35,000 --> 00:02:44,000
+Under the hood: Firebase AI Logic hybrid inference, App Check, Authentication, Firestore and Remote Config.
+
+18
+00:02:44,000 --> 00:02:50,000
+Tender Lens. Read the notice, not the boilerplate.
